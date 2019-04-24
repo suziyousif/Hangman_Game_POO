@@ -2,13 +2,17 @@
 //#define DEBUG
 Dictionary::Dictionary()
 {
-    vec_words.push_back(new Word("cachorro", "animal"));
-    vec_words.push_back(new Word("casa", "objeto"));
-    vec_words.push_back(new Word("celular", "objeto"));
-    vec_words.push_back(new Word("florianopolis", "cidade"));
-    vec_words.push_back(new Word("brasil", "pais"));
-    vec_words.push_back(new Word("russia", "pais"));
-    vec_words.push_back(new Word("tartaruga","animal"));
+    vec_words.push_back(new Word("dog", "animal"));
+    vec_words.push_back(new Word("home", "object"));
+    vec_words.push_back(new Word("mobile", "object"));
+    vec_words.push_back(new Word("Florianopolis", "city"));
+    vec_words.push_back(new Word("Brazil", "country"));
+    vec_words.push_back(new Word("Russia", "country"));
+    vec_words.push_back(new Word("cat","animal"));
+    vec_words.push_back(new Word("car","object"));
+    vec_words.push_back(new Word("bird","animal"));
+    vec_words.push_back(new Word("black","color"));
+    vec_words.push_back(new Word("yellow","color"));
 }
 void Dictionary::addWord(Word *_word)
 {
