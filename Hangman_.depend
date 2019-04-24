@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1555364102 source:c:\users\suzi\documents\poo\hangman_\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"Word.h"
+	"Dictionary.h"
+	"Hangman.h"
+	<vector>
+	"Player.h"
+
+1555364352 source:c:\users\suzi\documents\poo\hangman_\src\word.cpp
+	"Word.h"
+	<iostream>
+	<string>
+
+1554731789 c:\users\suzi\documents\poo\hangman_\include\word.h
+	<string>
+
+1555337891 source:c:\users\suzi\documents\poo\hangman_\src\dictionary.cpp
+	"Dictionary.h"
+
+1555361572 c:\users\suzi\documents\poo\hangman_\include\dictionary.h
+	"Word.h"
+	<vector>
+	<stdlib.h>
+	<time.h>
+
+1555363717 source:c:\users\suzi\documents\poo\hangman_\src\player.cpp
+	"Player.h"
+
+1555362027 c:\users\suzi\documents\poo\hangman_\include\player.h
+	<string>
+	<iostream>
+
+1555363817 c:\users\suzi\documents\poo\hangman_\include\hangman.h
+	<iostream>
+	<vector>
+	"Player.h"
+	"Dictionary.h"
+	"Word.h"
+
+1555364233 source:c:\users\suzi\documents\poo\hangman_\src\hangman.cpp
+	"Hangman.h"
+
